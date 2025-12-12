@@ -1,0 +1,2446 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>오늘의 카페 - 메뉴 (목록형)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">오늘의 카페</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">홈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="how-to-use.html">이용 방법</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu-card.html">메뉴(카드형)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold text-primary" href="menu-list.html">메뉴(목록형)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="contact.html" target="_blank">문의하기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container mt-4 mb-5">
+        <h3 class="fw-bold mb-4 text-muted">목록형 메뉴</h3>
+
+        <ul class="nav nav-pills mb-4" id="pills-tab">
+            <li class="nav-item">
+                <button class="nav-link active rounded-pill" id="list-all-tab" data-bs-toggle="pill"
+                    data-bs-target="#list-all" type="button">전체</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link rounded-pill" id="list-coffee-tab" data-bs-toggle="pill"
+                    data-bs-target="#list-coffee" type="button">커피</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link rounded-pill" id="list-smoothie-tab" data-bs-toggle="pill"
+                    data-bs-target="#list-smoothie" type="button">스무디/프라페</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link rounded-pill" id="list-latte-tab" data-bs-toggle="pill"
+                    data-bs-target="#list-latte" type="button">논커피 라떼</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link rounded-pill" id="list-tea-tab" data-bs-toggle="pill" data-bs-target="#list-tea"
+                    type="button">티/에이드</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="list-tabContent">
+
+            <div class="tab-pane fade show active" id="list-all">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                                <!-- 커피-메가 -->
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">1,700원 /
+                                                2,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 12.2kcal | 당류: 0g | 카페인: 199.7mg</p>
+                                        <p class="mb-0 small">(기본 2샷) 에스프레소에 물을 더한 스탠다드 커피</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="꿀아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 꿀아메리카노 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 162.2kcal | 당류: 30.4g | 카페인: 198.6mg</p>
+                                        <p class="mb-0 small">아메리카노에 달콤한 사양벌꿀이 소프트하게 어우러진 커피</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/megaricano.jpg" class="list-item-img me-3" alt="메가리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 메가리카노 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 16.7kcal | 당류: 0g | 카페인: 290.8mg</p>
+                                        <p class="mb-0 small">아메리카노를 '960ml' 더 큼직하게 즐길 수 있는 대용량 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="바닐라아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 바닐라아메리카노 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 121.9kcal | 당류: 6.9g | 카페인: 144.2mg</p>
+                                        <p class="mb-0 small">아메리카노에 바닐라의 부드러운 향과 달콤함을 조화롭게 담아낸 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="헛개리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 헛개리카노 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 34.7kcal | 당류: 0g | 카페인: 181.2mg</p>
+                                        <p class="mb-0 small">국내산 헛개수와 아메리카노를 더해 고소한 맛이 조화로운 블렌딩 커피</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/megaricano.jpg" class="list-item-img me-3" alt="왕메가헛개리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕메가헛개리카노 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 55.7kcal | 당류: 0g | 카페인: 234.6mg</p>
+                                        <p class="mb-0 small">국내산 헛개수와 아메리카노를 블렌딩해 고소한 맛이 더욱 커진 왕메가사이즈 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="헤이즐넛아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 헤이즐넛아메리카노 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 113.6kcal | 당류: 15.8g | 카페인: 196.7mg</p>
+                                        <p class="mb-0 small">아메리카노에 헤이즐넛의 풍성한 향과 달콤함을 담아 향긋하고 부드럽게 즐기는 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Coldbrew.jpg" class="list-item-img me-3" alt="콜드브루오리지널">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 콜드브루오리지널 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">3,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 10.6kcal | 당류: 0g | 카페인: 217.0mg</p>
+                                        <p class="mb-0 small">차가운 물에 장시간 우려내 깔끔한 목넘김을 느낄 수 있는 콜드브루.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ColdbrewLatte.jpg" class="list-item-img me-3" alt="콜드브루라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 콜드브루라떼 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">4,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 167.6kcal | 당류: 2.3g | 카페인: 131.7mg</p>
+                                        <p class="mb-0 small">콜드브루에 고소한 우유를 섞어, 깔끔함과 부드러움을 잡은 라떼.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="바닐라라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 바닐라라떼 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">3,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 239.2kcal | 당류: 23.7g | 카페인: 195.1mg</p>
+                                        <p class="mb-0 small">바닐라의 짙은 향과 풍부한 폼 밀크의 조화가 인상적인 달콤한 라떼.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="라이트 바닐라 아몬드라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 라이트 바닐라 아몬드라떼 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 75.3kcal | 당류: 3.1g | 카페인: 206.2mg</p>
+                                        <p class="mb-0 small">비건 음료 아몬드브리즈와 칼로리를 낮춘 라이트 바닐라 시럽이 만나 가볍지만 부드~러워진 라떼</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="카페라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 카페라떼 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 145.1kcal | 당류: 9.2g | 카페인: 199.1mg</p>
+                                        <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 라떼.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="왕메가카페라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕메가카페라떼 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 269.4kcal | 당류: 28.4g | 카페인: 199.1mg</p>
+                                        <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 왕메가사이즈 라떼</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeMocha.jpg" class="list-item-img me-3" alt="카페모카">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 카페모카 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 294.4kcal | 당류: 33.9g | 카페인: 232.5mg</p>
+                                        <p class="mb-0 small">초코를 만나 풍부해진 에스프레소와 고소한 우유, 부드러운 휘핑크림까지 더해 달콤하게 즐기는 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Cappuccino.jpg" class="list-item-img me-3" alt="카푸치노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 카푸치노 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">2,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 132.4kcal | 당류: 1.1g | 카페인: 192.3mg</p>
+                                        <p class="mb-0 small">에스프레소 위에 올려진 우유 거품, 그리고 시나몬 파우더로 완성한 조화로운 맛의 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaramelMacchiato.jpg" class="list-item-img me-3" alt="카라멜마끼아또">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 카라멜마끼아또 (HOT/ICE) <span
+                                                class="badge bg-light text-dark border">3,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 205.0kcal | 당류: 27.5g | 카페인: 200.0mg</p>
+                                        <p class="mb-0 small">폼 밀크 속에 진한 에스프레소와 달콤한 카라멜을 가미해 부드럽게 즐기는 커피.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="연유라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 연유라떼 <span class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 351.5kcal | 당류: 31.9g | 카페인: 165.9mg</p>
+                                        <p class="mb-0 small">향기로운 에스프레소 샷, 부드러운 우유, 달콤한 연유가 조화롭게 어우러진 라떼</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="헤이즐넛라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 헤이즐넛라떼 <span class="badge bg-light text-dark border">3,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 237.4kcal | 당류: 10.8g | 카페인: 216.9mg</p>
+                                        <p class="mb-0 small">부드러운 카페라떼에 헤이즐넛의 풍부한 향과 달콤함을 담아 향긋하게 즐길 수 있는 라떼.</p>
+                                    </div>
+                                </div>
+                        
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CubeLatte.jpg" class="list-item-img me-3" alt="큐브라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 큐브라떼 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,200원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 304.4kcal | 당류: 15.0g | 카페인: 313.4mg</p>
+                                        <p class="mb-0 small">연유를 섞은 라떼에 에스프레소를 얼린 커피큐브를 올려, 녹을수록 더 진한 커피가 느껴지는 라떼.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Choco-gelatoMatchaTeaLatte.jpg" class="list-item-img me-3" alt="초코젤라또 말차라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 초코젤라또 말차라떼 (HOT/ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 351.1kcal | 당류: 43.5g | 카페인: 243.5mg</p>
+                                        <p class="mb-0 small">진하고 꾸덕한 초코 젤라또를 제주산 고품질 말차, 쌉싸름한 블렌딩 커피와 함께 즐기는 말차 에스프레소 라떼</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/MEGAMixCoffee.jpg" class="list-item-img me-3" alt="할메가커피">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 할메가커피 (ONLY ICE) <span class="badge bg-light text-dark border">2,100원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 281.9kcal | 당류: 30.3g | 카페인: 99.6mg</p>
+                                        <p class="mb-0 small">달달한 믹스 커피 스타일로 만든 시원한 커피 음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BIGMEGAMixCoffee.jpg" class="list-item-img me-3" alt="왕할메가커피">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕할메가커피 (ONLY ICE) <span class="badge bg-light text-dark border">3,200원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 468.7kcal | 당류: 48.5g | 카페인: 196.4mg</p>
+                                        <p class="mb-0 small">달달한 믹스 커피 스타일로 만든 메가사이즈 커피 음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/MEGAMGCMixCoffeeBlendwithGrainPowder.jpg" class="list-item-img me-3" alt="할메가미숫커피">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 할메가미숫커피 (ONLY ICE) <span class="badge bg-light text-dark border">2,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 413kcal | 당류: 45.4g | 카페인: 172.9mg</p>
+                                        <p class="mb-0 small">곡물의 향이 고소한 미숫가루와 달달한 믹스커피의 황금비율 조합</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Espresso.jpg" class="list-item-img me-3" alt="에스프레소">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 에스프레소 (ONLY HOT) <span class="badge bg-light text-dark border">1,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 7.6kcal | 당류: 0.0g | 카페인: 104.8mg</p>
+                                        <p class="mb-0 small">원두의 향미를 온전히 즐길 수 있는 에스프레소</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Espressodoppio.jpg" class="list-item-img me-3" alt="에스프레소 도피오">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 에스프레소 도피오 (ONLY HOT) <span class="badge bg-light text-dark border">2,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 15.2kcal | 당류: 0.0g | 카페인: 184.7mg</p>
+                                        <p class="mb-0 small">더블샷으로 더욱 진하게 즐길 수 있는 에스프레소</p>
+                                    </div>
+                                </div>
+
+                                <!-- 커피 - 스타벅스 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedCaramelMacchiato.jpg" class="list-item-img me-3" alt="카라멜 마키아또">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 카라멜 마키아또 (HOT/ICE) <span class="badge bg-light text-dark border">6,100원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 190kcal | 당류: 22g | 카페인: 75mg</p>
+                                        <p class="mb-0 small">향긋한 바닐라 시럽과 시원한 우유에 얼음을 넣고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedCaffeAmericano.jpg" class="list-item-img me-3" alt="카페 아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 카페 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">4,700원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 10kcal | 당류: 0g | 카페인: 150mg</p>
+                                        <p class="mb-0 small">진한 에스프레소에 시원한 정수물과 얼음을 더하여 깔끔하고 강렬한 에스프레소를 가장 부드럽고 시원하게 즐길 수 있는 커피</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedCappuccino.jpg" class="list-item-img me-3" alt="카푸치노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 카푸치노 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 110kcal | 당류: 9g | 카페인: 75mg</p>
+                                        <p class="mb-0 small">풍부하고 진한 에스프레소에 신선한 우유와 우유 거품이 얼음과 함께 들어간 시원하고 부드러운 커피 음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedVanillaLatte.jpg" class="list-item-img me-3" alt="바닐라 라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 바닐라 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 150kcal | 당류: 19g | 카페인: 75mg</p>
+                                        <p class="mb-0 small">달콤한 바닐라의 향을 풍부하고 진한 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedCaffeLatte.jpg" class="list-item-img me-3" alt="카페 라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 카페 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 110kcal | 당류: 8g | 카페인: 75mg</p>
+                                        <p class="mb-0 small">풍부하고 진한 농도의 에스프레소가 시원한 우유와 얼음을 만나 고소함과 시원함을 즐길 수 있는 대표적인 커피 라떼</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IcedCaffeMocha.jpg" class="list-item-img me-3" alt="카페 모카">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[스타벅스] 카페 모카 (HOT/ICE) <span class="badge bg-light text-dark border">5,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 250kcal | 당류: 21g | 카페인: 95mg</p>
+                                        <p class="mb-0 small">진한 초콜릿 모카 시럽과 풍부한 에스프레소를 신선한 우유 그리고 얼음과 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피</p>
+                                    </div>
+                                </div>
+
+                                <!-- 커피 - 컴포즈 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Americano-com.jpg" class="list-item-img me-3" alt="아메리카노">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">1,800원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 15kcal | 당류: 0g | 카페인: 156mg</p>
+                                        <p class="mb-0 small">풍부한 크레마와 깊은 원두의 풍미를 느낄 수 있는 스탠다드 커피.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeLatte-com.jpg" class="list-item-img me-3" alt="카페라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 카페라떼 (HOT/ICE) <span class="badge bg-light text-dark border">2,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 155kcal | 당류: 10g | 카페인: 208mg</p>
+                                        <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 조화롭게 어우러진 고소한 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/VanillaLatte-com.jpg" class="list-item-img me-3" alt="바닐라라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 바닐라라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 258.3kcal | 당류: 29.5g | 카페인: 208mg</p>
+                                        <p class="mb-0 small">달콤한 바닐라의 풍미와 부드러운 우유가 만나 기분 좋은 달콤함을 선사하는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Hazelnut Latte-com.jpg" class="list-item-img me-3" alt="헤이즐넛 라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 헤이즐넛 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 203.17kcal | 당류: 25.6g | 카페인: 208mg</p>
+                                        <p class="mb-0 small">은은한 헤이즐넛의 향긋함과 고소한 라떼의 조화가 매력적인 커피.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaramelMacchiato-com.jpg" class="list-item-img me-3" alt="카라멜마끼아또">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 카라멜마끼아또 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 253kcal | 당류: 60.6g | 카페인: 208mg</p>
+                                        <p class="mb-0 small">진한 카라멜 소스와 부드러운 우유 거품이 어우러진 달콤한 커피.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CaffeMocha-com.jpg" class="list-item-img me-3" alt="카페모카">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 카페모카 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 321kcal | 당류: 28.2g | 카페인: 208mg</p>
+                                        <p class="mb-0 small">진한 초콜릿의 풍미와 에스프레소가 어우러져 달콤쌉싸름하게 즐기는 커피.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Coldbrew-com.jpg" class="list-item-img me-3" alt="콜드브루(에티오피아)">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 콜드브루(에티오피아) (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 17.74kcal | 당류: 0g | 카페인: 181.00mg</p>
+                                        <p class="mb-0 small">차가운 물로 오랜 시간 추출하여 원두 본연의 향미와 깔끔한 맛을 살린 커피.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ColdbrewLatte-com.jpg" class="list-item-img me-3" alt="콜드브루라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 콜드브루라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 122.74kcal | 당류: 7.50g | 카페인: 181.00mg</p>
+                                        <p class="mb-0 small">깔끔한 콜드브루에 고소한 우유를 더해 더욱 부드럽게 즐기는 라떼.</p>
+                                    </div>
+                                </div>
+
+                                <!-- 티&에이드-메가 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BIGMEGAAppleCitronTea.jpg" class="list-item-img me-3" alt="왕메가사과유자">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕메가사과유자 (ONLY ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 313.3kcal | 당류: 76.7g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">애플티의 향긋함과 유자청의 상큼달콤함을 느낄 수 있는 메가MGC커피만의 왕메가사이즈 과일티</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/(ICE)ZestyLycheeTea.jpg" class="list-item-img me-3" alt="상큼 리치티">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 상큼 리치티 (HOT/ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 260.1kcal | 당류: 61.9g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">리치, 라임, 망고스틴 베이스에 레드 커런트, 로즈마리를 더한 상큼한 과일티</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/32ozMEGAPeachIcedTea.jpg" class="list-item-img me-3" alt="왕메가아이스티">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕메가아이스티 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 474.8kcal | 당류: 96.6g | 카페인: 41.2mg</p>
+                                        <p class="mb-0 small">깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 왕 메가 사이즈 아이스티</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ZEROSugarPeachIcedTea.jpg" class="list-item-img me-3" alt="제로 복숭아 아이스티">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 제로 복숭아 아이스티 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 26.1kcal | 당류: 0.7g | 카페인: 14.5mg</p>
+                                        <p class="mb-0 small">깊게 우려진 홍차와 은은한 복숭아향의 아이스티를 제로슈가, 제로칼로리로 즐길 수 있는 음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GreenTea.jpg" class="list-item-img me-3" alt="녹차">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 녹차 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 1.0kcal | 당류: 0.0g | 카페인: 78.5mg</p>
+                                        <p class="mb-0 small">고소한 감칠맛과 부드러운 목넘김으로 산뜻하게 마음을 위로하는 국내산 녹차.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ApplecitronTea.jpg" class="list-item-img me-3" alt="사과유자차">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 사과유자차 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 242.2kcal | 당류: 37.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">애플티의 향긋함과 유자청의 상큼달콤함을 한컵에 담아낸 과일티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/EarlGrey.jpg" class="list-item-img me-3" alt="얼그레이">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 얼그레이 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 1.3kcal | 당류: 0.0g | 카페인: 87.2mg</p>
+                                        <p class="mb-0 small">홍차 특유의 풍부한 플레이버를 만끽할 수 있는 허브티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Chamomile.jpg" class="list-item-img me-3" alt="캐모마일">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 캐모마일 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 1.3kcal | 당류: 0.0g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">마음을 진정 시켜주는 산뜻한 풀내음을 느낄 수 있는 허브티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/PeppermintTea.jpg" class="list-item-img me-3" alt="페퍼민트">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 페퍼민트 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 2.5kcal | 당류: 0.0g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">멘톨향의 묵직한 청량감, 상쾌한 맛과 향이 인상적인 허브티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/PeachIcedTea.jpg" class="list-item-img me-3" alt="복숭아아이스티">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 복숭아아이스티 (ONLY ICE) <span class="badge bg-light text-dark border">3,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 297.1kcal | 당류: 62.6g | 카페인: 24.0mg</p>
+                                        <p class="mb-0 small">깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 시원한 여름철 인기 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CitronTea.jpg" class="list-item-img me-3" alt="유자차">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 유자차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 303.1kcal | 당류: 59.4g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">비타민이 가득 든 상큼달콤한 유자를 듬뿍 넣어 향긋한 즐거움을 전하는 과일티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/LemonTea.jpg" class="list-item-img me-3" alt="레몬차">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 레몬차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 327.5kcal | 당류: 68.9g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">상큼한 레몬의 맛과 향을 오롯이 살린 비타민C 가득한 과일티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GrapefruitTea.jpg" class="list-item-img me-3" alt="자몽차">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 자몽차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 297.6kcal | 당류: 58.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">달콤쌉싸름한 자몽의 조화로운 맛을 한 잔 가득 느낄 수 있는 과일티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/HoneyGrapefruitBlackTea.jpg" class="list-item-img me-3" alt="허니자몽블랙티">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 허니자몽블랙티 (HOT/ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 265.8kcal | 당류: 42.7g | 카페인: 70.9mg</p>
+                                        <p class="mb-0 small">달콤한 꿀청에 재운 자몽에 홍차의 부드러움을 어우른 상큼한 과일티.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CherryCola.jpg" class="list-item-img me-3" alt="체리콜라">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 체리콜라 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 323.6kcal | 당류: 55.6g | 카페인: 23.9mg</p>
+                                        <p class="mb-0 small">체리의 새콤함과 청량감을 동시에 즐길 수 있는 환상적인 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CherryColaZero.jpg" class="list-item-img me-3" alt="제로 체리콜라">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 제로 체리콜라 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 7.9kcal | 당류: 0.2g | 카페인: 7.6mg</p>
+                                        <p class="mb-0 small">체리의 새콤함과 콜라의 청량감을 동시에 즐길 수 있는 환상적인 제로 칼로리 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ZEROSUGAREnergy-DrinkAde.jpg" class="list-item-img me-3" alt="제로 부스트 에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 제로 부스트 에이드 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 11.7kcal | 당류: 0.3g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">타우린 1,000mg이 들어가 활력이 충전되는 에너지드링크맛 제로 칼로리 에이드</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BlueberryPlumJuice.jpg" class="list-item-img me-3" alt="블루베리플럼주스">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 블루베리플럼주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 257.2kcal | 당류: 35.7g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">새콤달콤한 블루베리와 식이섬유가 풍부한 플럼, 프리바이오틱스를 더해 건강한 블렌딩 주스</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GoldKiwiJuice.jpg" class="list-item-img me-3" alt="골드키위주스">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 골드키위주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 202.8kcal | 당류: 43.1g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">상큼달콤한 프리미엄 골드키위에 밀크씨슬을 더해 일상의 활력을 선사하는 건강한 블렌딩 주스</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/StrawberryJuice.jpg" class="list-item-img me-3" alt="딸기주스">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 228.0kcal | 당류: 54.0g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">새콤달콤한 딸기주스에 피쉬 콜라겐을 더해 건강한 블렌딩 주스</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Strawberry-BananaJuice.jpg" class="list-item-img me-3" alt="딸기바나나주스">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기바나나주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 268.5kcal | 당류: 42.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">상큼한 딸기와 부드러운 바나나가 만나, 새콤달콤한 매력이 살아 있는 과일 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/LimeMojito.jpg" class="list-item-img me-3" alt="라임모히또">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 라임모히또 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 290.5kcal | 당류: 70.4g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">상큼한 라임과 달콤한 향기의 애플민트가 어우러져 상쾌함을 한잔에 가득 채운 무알콜 모히또 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Lemonade.jpg" class="list-item-img me-3" alt="레몬에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 레몬에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 196.8kcal | 당류: 35.1g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">시트러스향 가득한 레몬의 상큼함과 톡쏘는 탄산의 상쾌함이 만난 청량 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BlueLemonAde.jpg" class="list-item-img me-3" alt="블루레몬에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 블루레몬에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 225.0kcal | 당류: 36.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">레몬에이드의 상큼한 청량감에 블루큐라소의 진한 향미를 더한 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GrapefruitAde.jpg" class="list-item-img me-3" alt="자몽에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 자몽에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 203.8kcal | 당류: 40.7g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">자몽의 달콤쌉싸름한 맛과 탄산의 톡쏘는 목넘김이 어우러진 트로피컬 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GreenGrapeAde.jpg" class="list-item-img me-3" alt="청포도에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 청포도에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 317.0kcal | 당류: 77.7g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">산뜻한 청포도와 상쾌한 탄산의 달달한 조화가 인상적인 에이드.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/MEGAAde.jpg" class="list-item-img me-3" alt="메가에이드">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 메가에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 296.9kcal | 당류: 59.3g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">레몬, 라임, 자몽의 맛을 한데 어우른 시그니처 에이드.</p>
+                                    </div>
+                                </div>
+
+                                <!-- 스무디/프라페-메가 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Nurung-JiCrispFrappe.jpg" class="list-item-img me-3" alt="누룽누룽 바삭 프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 누룽누룽 바삭 프라페 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 591.3kcal | 당류: 53.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">대왕님표 여주쌀로 만든 누룽지를 넣어 달달 꼬소~한 프라페</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/PeanutButterChocolateFrappe.jpg" class="list-item-img me-3" alt="피넛버터 초코 프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 피넛버터 초코 프라페 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,400원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 639.4kcal | 당류: 89.5g | 카페인: 31.3mg</p>
+                                        <p class="mb-0 small">누가초코 프라페에 피넛버터를 더해 단맛과 풍미가 진하게 어우러진 프라페</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/PlainYogurtSmoothie.jpg" class="list-item-img me-3" alt="플레인요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 플레인요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 514.9kcal | 당류: 84.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">더 시원하게 요거트의 새콤달콤한 맛을 오롯이 만끽할 수 있는 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/StrawberryYogurtSmoothie.jpg" class="list-item-img me-3" alt="딸기요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 388.8kcal | 당류: 62.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">요거트의 상큼함과 딸기의 상큼함을 상냥하게 어우른 상큼 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/MangoYogurtSmoothie.jpg" class="list-item-img me-3" alt="망고요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 망고요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 365.2kcal | 당류: 56.4g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">열대과일 망고의 진한 단 맛과 산뜻한 요거트의 하모니가 인상적인 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BlueberryYogurtSmoothie.jpg" class="list-item-img me-3" alt="블루베리요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 블루베리요거트스무디 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 531.8kcal | 당류: 109.3g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">새콤달콤한 블루베리와 산뜻한 요거트가 만나 조화로운 스무디</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/TangerineJellySmoothie.jpg" class="list-item-img me-3" alt="귤 톡톡 젤리스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 귤 톡톡 젤리스무디 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">3,900원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 364.3kcal | 당류: 89.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">톡톡 터지는 상큼한 귤의 과육과 몽글한 젤리식감이 매력적인 스무디</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GoldMangoSmoothie.jpg" class="list-item-img me-3" alt="골드망고스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 골드망고스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 209.5kcal | 당류: 38.4g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">황금빛 골드망고가 진하게 느껴지는 부드럽고 상큼 달콤한 스무디</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CoconutCoffeeSmoothie.jpg" class="list-item-img me-3" alt="코코넛 커피 스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 코코넛 커피 스무디 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,800원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 746.5kcal | 당류: 61.4g | 카페인: 173.8mg</p>
+                                        <p class="mb-0 small">바삭하고 고소한 코코넛 칩을 올리고 쌉싸름한 커피와 달콤한 코코넛이 조화로운 스무디</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/StrawberryCookieFrappe.jpg" class="list-item-img me-3" alt="딸기쿠키프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기쿠키프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 583.3kcal | 당류: 65.4g | 카페인: 2.6mg</p>
+                                        <p class="mb-0 small">부드러운 바닐라와 달달한 딸기, 바삭한 오레오 쿠키가 달콤한 하모니를 선물하는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/RealChocolateFrappe.jpg" class="list-item-img me-3" alt="리얼초코프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 리얼초코프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 580.8kcal | 당류: 75.4g | 카페인: 32.1mg</p>
+                                        <p class="mb-0 small">진한 초코소스와 부드러운 바닐라향의 만남으로 질리지 않는 달콤함을 완성한 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CookieFrappe.jpg" class="list-item-img me-3" alt="쿠키프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 쿠키프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 697.8kcal | 당류: 59.7g | 카페인: 6.8mg</p>
+                                        <p class="mb-0 small">바삭하고 달콤한 오레오와 고소한 우유, 부드러운 바닐라향의 조화를 느낄 수 있는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GreenTeaFrappe.jpg" class="list-item-img me-3" alt="녹차프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 녹차프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 620.0kcal | 당류: 80.7g | 카페인: 198.8mg</p>
+                                        <p class="mb-0 small">향긋한 녹차 위에 우유와 휘핑크림을 더해 더 부드럽게 즐길 수 있는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/MintFrappe.jpg" class="list-item-img me-3" alt="민트프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 민트프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 622.3kcal | 당류: 64.5g | 카페인: 5.6mg</p>
+                                        <p class="mb-0 small">상쾌한 민트에 달콤하게 씹는 재미를 더한 초콜릿칩의 즐거운 하모니가 매력적인 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/CoffeeFrappe.jpg" class="list-item-img me-3" alt="커피프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 커피프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 414.3kcal | 당류: 35.6g | 카페인: 162.6mg</p>
+                                        <p class="mb-0 small">바삭한 쿠키와 부드러운 바닐라에 향긋한 에스프레소를 섞어 만든 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/PlainPongcrush.jpg" class="list-item-img me-3" alt="플레인퐁크러쉬">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 플레인퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 468.6kcal | 당류: 46.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">우유에 죠리퐁 씨리얼이 믹싱 된 얼음을 갈아 만든 시원한 프라페음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/StrawberryPongcrush.jpg" class="list-item-img me-3" alt="딸기퐁크러쉬">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 536.9kcal | 당류: 45.9g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">바삭하고 달달한 퐁에 딸기와 부드러운 우유, 얼음을 함께 블렌딩해 시원하게 즐기는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BananaPongcrush.jpg" class="list-item-img me-3" alt="바나나퐁크러쉬">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 바나나퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 593.8kcal | 당류: 64.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">바삭하고 달달한 퐁에 바나나와 우유, 얼음을 함께 블렌딩해 부드럽고 시원하게 즐기는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ChocolateHoneyPongCrush.jpg" class="list-item-img me-3" alt="초코허니퐁크러쉬">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 초코허니퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 594.6kcal | 당류: 67.6g | 카페인: 10.0mg</p>
+                                        <p class="mb-0 small">리얼 벌꿀이 들어가 더 달콤한 퍼프허니 시리얼과 초코가 함께 만드는 즐거운 맛의 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ChouxCreamHoneyPongCrush.jpg" class="list-item-img me-3" alt="슈크림허니퐁크러쉬">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 슈크림허니퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 568.1kcal | 당류: 49.5g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">부드러운 슈크림과 리얼 벌꿀이 들어간 퍼프허니 시리얼을 시원하게 즐기는 프라페.</p>
+                                    </div>
+                                </div>
+
+                                <!--스무디&프라페 - 컴포즈 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/realChocolate-com.jpg" class="list-item-img me-3" alt="리얼초코자바칩프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 리얼초코자바칩프라페 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 575.4kcal | 당류: 55.6g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">진한 초콜릿과 바삭한 자바칩이 어우러져 달콤한 식감을 즐길 수 있는 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/cookiechoco-com.jpg" class="list-item-img me-3" alt="쿠키초코프라페">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키초코프라페 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 511.8kcal | 당류: 49.8g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">바삭한 쿠키와 달콤한 초콜릿이 만나 누구나 좋아하는 맛을 완성한 프라페.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/plainyogurt-com.jpg" class="list-item-img me-3" alt="플레인요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 플레인요거트스무디 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 445.83kcal | 당류: 81.5g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">요거트 특유의 새콤달콤한 맛을 시원하고 부드럽게 즐기는 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/blueberryyogurt-com.jpg" class="list-item-img me-3" alt="블루베리요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 블루베리요거트스무디 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,000원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 449.80kcal | 당류: 84.00g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">상큼한 블루베리와 부드러운 요거트가 조화롭게 어우러진 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/strawberryyogurt-com.jpg" class="list-item-img me-3" alt="딸기요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 딸기요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 437.3kcal | 당류: 82.1g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">달콤한 딸기 과육과 새콤한 요거트가 만나 입맛을 돋우는 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/mangoyogurt-com.jpg" class="list-item-img me-3" alt="망고요거트스무디">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 망고요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 455.9kcal | 당류: 82.89g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">열대과일 망고의 진한 달콤함을 요거트와 함께 즐기는 시원한 스무디.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/strawberrymochi-com.jpg" class="list-item-img me-3" alt="딸기 모찌 밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 딸기 모찌 밀크쉐이크 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">5,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 843kcal | 당류: 103.08g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">신선한 딸기 밀크쉐이크에 쫀득한 찹쌀떡(모찌)을 더해 식감까지 즐거운 스페셜 쉐이크.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/plainmilk-com.jpg" class="list-item-img me-3" alt="플레인 밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 플레인 밀크쉐이크 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,200원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 560.2kcal | 당류: 47.7g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">신선한 상하목장 우유의 진하고 고소한 풍미를 부드럽게 담아낸 오리지널 밀크쉐이크.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/candysoda-com.jpg" class="list-item-img me-3" alt="캔디소다 밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 캔디소다 밀크쉐이크 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,200원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 583.6kcal | 당류: 58.61g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">청량한 소다맛과 부드러운 우유가 만나 입안 가득 달콤하게 퍼지는 캔디바 맛 쉐이크.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/cookiemilk-com.jpg" class="list-item-img me-3" alt="쿠키 밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키 밀크쉐이크 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 671.6kcal | 당류: 62.3g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">바삭하고 달콤한 로투스 쿠키를 통째로 갈아 넣어 진한 고소함을 느낄 수 있는 쉐이크.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/coffeemilk-com.jpg" class="list-item-img me-3" alt="커피밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 커피밀크쉐이크 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 565kcal | 당류: 51.7g | 카페인: 156mg</p>
+                                        <p class="mb-0 small">진한 에스프레소 2샷과 부드러운 밀크쉐이크가 어우러져 시원하게 즐기는 커피 쉐이크.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/Injeolmimilk-com.jpg" class="list-item-img me-3" alt="팥절미 밀크쉐이크">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 팥절미 밀크쉐이크 (ONLY ICE) <span
+                                                class="badge bg-light text-dark border">4,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 704kcal | 당류: 78.5g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">고소한 인절미와 달콤한 통팥이 듬뿍 들어가 옛날 팥빙수 맛을 그대로 재현한 쉐이크.</p>
+                                    </div>
+                                </div>
+
+                                <!--논커피 라떼 - 메가 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/StrawberryLatte.jpg" class="list-item-img me-3" alt="딸기라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 딸기라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,700원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 366.4kcal | 당류: 47.3g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">산뜻하고 달콤한 딸기가 가득해 부드러운 우유와 어우러져 더욱 기분 좋게 즐기는 아이스 라떼</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/32ozMEGAChocolate.jpg" class="list-item-img me-3" alt="왕메가초코">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 왕메가초코 (ONLY ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 574.2kcal | 당류: 77.3g | 카페인: 35.6mg</p>
+                                        <p class="mb-0 small">부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 왕 메가 사이즈 초코음료</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/SweetPotatoLatte.jpg" class="list-item-img me-3" alt="고구마라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 고구마라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 248.8kcal | 당류: 21.6g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">달콤하고 고소한 고구마와 부드러운 우유가 만나 누구나 즐기기 좋은 든든한 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GrainLatte.jpg" class="list-item-img me-3" alt="곡물라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 곡물라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 389.7kcal | 당류: 38.3g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">우유에 곡물을 더해 고소하고 든든하게 즐기는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/ToffeenutLatte.jpg" class="list-item-img me-3" alt="토피넛라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 토피넛라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,800원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 364.5kcal | 당류: 22.5g | 카페인: 54.0mg</p>
+                                        <p class="mb-0 small">은은하게 퍼지는 카라멜의 달달한 향기와 견과의 고소함을 한입에 즐길 수 있는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/OreoChocolateLatte.jpg" class="list-item-img me-3" alt="오레오초코라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 오레오초코라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 475.1kcal | 당류: 30.1g | 카페인: 11.1mg</p>
+                                        <p class="mb-0 small">진한 초코와 리얼 오레오를 블렌딩해 씹는 맛을 더한 달콤한 아이스 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BrownSugarBubbleMilkteaLatte.jpg" class="list-item-img me-3" alt="흑당버블밀크티라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 흑당버블밀크티라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 330.2kcal | 당류: 24.4g | 카페인: 14.3mg</p>
+                                        <p class="mb-0 small">얼그레이 홍차 밀크티에 진한 흑당과 흑당 버블의 달콤함을 채운 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BrownSugarLatte(NoPearls).jpg" class="list-item-img me-3" alt="흑당라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 흑당라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 322.0kcal | 당류: 33.6g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">진한 흑당과 부드러운 우유가 달콤하게 조화를 이루는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BrownSugarMilkteaLatte(Nopearls).jpg" class="list-item-img me-3" alt="흑당밀크티라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 흑당밀크티라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 300.5kcal | 당류: 22.6g | 카페인: 30.6mg</p>
+                                        <p class="mb-0 small">얼그레이 홍차 밀크티 라떼에 진한 흑당의 달콤함을 채운 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/BrownSugarBubbleLatte.jpg" class="list-item-img me-3" alt="흑당버블라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 흑당버블라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 320.3kcal | 당류: 27.2g | 카페인: 0.0mg</p>
+                                        <p class="mb-0 small">진한 흑당과 부드러운 우유가 달콤한 조화에 흑당 버블을 함께 즐기는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/IceChoco.jpg" class="list-item-img me-3" alt="핫/아이스초코">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 핫/아이스초코 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 369.2kcal | 당류: 33.5g | 카페인: 21.3mg</p>
+                                        <p class="mb-0 small">부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 초콜릿 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/GreenTeaLatte.jpg" class="list-item-img me-3" alt="녹차라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 녹차라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 288.5kcal | 당류: 21.2g | 카페인: 135.9mg</p>
+                                        <p class="mb-0 small">향긋한 녹차에 우유를 더해 입 안에 부드러운 푸릇함을 선물하는 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/RoyalMilkTeaLatte.jpg" class="list-item-img me-3" alt="로얄밀크티라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[메가커피] 로얄밀크티라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 254.6kcal | 당류: 20.2g | 카페인: 118.1mg</p>
+                                        <p class="mb-0 small">우유와 은은한 홍차가 어우러져 부드럽고 향긋한 한 모금을 완성한 라떼.</p>
+                                    </div>
+                                </div>
+
+                                <!--논커피 라떼 - 컴포즈 -->
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/realchocolatte-com.jpg" class="list-item-img me-3" alt="생초콜릿라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 생초콜릿라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 518.7kcal | 당류: 37.2g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">벨기에산 생초콜릿이 듬뿍 올라가 진하고 꾸덕한 달콤함을 즐길 수 있는 프리미엄 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/strewberrychocolatte-com.jpg" class="list-item-img me-3" alt="딸기생초콜릿라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 딸기생초콜릿라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 598.3kcal | 당류: 57.9g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">상큼한 딸기 라떼 위에 꾸덕한 생초콜릿을 올려 달콤함과 상큼함을 동시에 즐기는 음료.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/grainlatte-com.jpg" class="list-item-img me-3" alt="곡물라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 곡물라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                        <p class="text-muted small mb-1">칼로리: 470.00kcal | 당류: 45.35g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">엄선된 곡물의 고소함이 우유와 만나 든든하고 담백하게 즐길 수 있는 곡물 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/sweetpotatolatte-com.jpg" class="list-item-img me-3" alt="고구마라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 고구마라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 363kcal | 당류: 37g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">달콤한 고구마의 풍미와 부드러운 우유가 어우러져 남녀노소 누구나 좋아하는 든든한 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/doublechocolatte-com.jpg" class="list-item-img me-3" alt="더블초코라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 더블초코라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 399.2kcal | 당류: 34.6g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">진한 초콜릿 소스와 우유가 어우러져 당 충전이 필요할 때 딱 좋은 깊은 맛의 초코 라떼.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex align-items-center border-bottom py-3">
+                                    <img src="image/cookiechocolatte-com.jpg" class="list-item-img me-3" alt="쿠키초코라떼">
+                                    <div class="flex-grow-1">
+                                        <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키초코라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                        </h5>
+                                        <p class="text-muted small mb-1">칼로리: 495kcal | 당류: 46.90g | 카페인: 0mg</p>
+                                        <p class="mb-0 small">달콤한 초코 라떼에 바삭한 쿠키가 더해져 씹는 맛까지 즐거운 디저트 같은 라떼.</p>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="list-coffee">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <!-- 커피 - 스타벅스 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedCaramelMacchiato.jpg" class="list-item-img me-3" alt="카라멜 마키아또">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 카라멜 마키아또 (HOT/ICE) <span class="badge bg-light text-dark border">6,100원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 190kcal | 당류: 22g | 카페인: 75mg</p>
+                                <p class="mb-0 small">향긋한 바닐라 시럽과 시원한 우유에 얼음을 넣고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedCaffeAmericano.jpg" class="list-item-img me-3" alt="카페 아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 카페 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">4,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 10kcal | 당류: 0g | 카페인: 150mg</p>
+                                <p class="mb-0 small">진한 에스프레소에 시원한 정수물과 얼음을 더하여 깔끔하고 강렬한 에스프레소를 가장 부드럽고 시원하게 즐길 수 있는 커피</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedCappuccino.jpg" class="list-item-img me-3" alt="카푸치노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 카푸치노 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 110kcal | 당류: 9g | 카페인: 75mg</p>
+                                <p class="mb-0 small">풍부하고 진한 에스프레소에 신선한 우유와 우유 거품이 얼음과 함께 들어간 시원하고 부드러운 커피 음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedVanillaLatte.jpg" class="list-item-img me-3" alt="바닐라 라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 바닐라 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 150kcal | 당류: 19g | 카페인: 75mg</p>
+                                <p class="mb-0 small">달콤한 바닐라의 향을 풍부하고 진한 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedCaffeLatte.jpg" class="list-item-img me-3" alt="카페 라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 카페 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">5,200원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 110kcal | 당류: 8g | 카페인: 75mg</p>
+                                <p class="mb-0 small">풍부하고 진한 농도의 에스프레소가 시원한 우유와 얼음을 만나 고소함과 시원함을 즐길 수 있는 대표적인 커피 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IcedCaffeMocha.jpg" class="list-item-img me-3" alt="카페 모카">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[스타벅스] 카페 모카 (HOT/ICE) <span class="badge bg-light text-dark border">5,700원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 250kcal | 당류: 21g | 카페인: 95mg</p>
+                                <p class="mb-0 small">진한 초콜릿 모카 시럽과 풍부한 에스프레소를 신선한 우유 그리고 얼음과 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피</p>
+                            </div>
+                        </div>
+                        
+                        <!-- 커피 - 컴포즈 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Americano-com.jpg" class="list-item-img me-3" alt="아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">1,800원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 15kcal | 당류: 0g | 카페인: 156mg</p>
+                                <p class="mb-0 small">풍부한 크레마와 깊은 원두의 풍미를 느낄 수 있는 스탠다드 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeLatte-com.jpg" class="list-item-img me-3" alt="카페라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 카페라떼 (HOT/ICE) <span class="badge bg-light text-dark border">2,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 155kcal | 당류: 10g | 카페인: 208mg</p>
+                                <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 조화롭게 어우러진 고소한 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/VanillaLatte-com.jpg" class="list-item-img me-3" alt="바닐라라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 바닐라라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 258.3kcal | 당류: 29.5g | 카페인: 208mg</p>
+                                <p class="mb-0 small">달콤한 바닐라의 풍미와 부드러운 우유가 만나 기분 좋은 달콤함을 선사하는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Hazelnut Latte-com.jpg" class="list-item-img me-3" alt="헤이즐넛 라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 헤이즐넛 라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 203.17kcal | 당류: 25.6g | 카페인: 208mg</p>
+                                <p class="mb-0 small">은은한 헤이즐넛의 향긋함과 고소한 라떼의 조화가 매력적인 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaramelMacchiato-com.jpg" class="list-item-img me-3" alt="카라멜마끼아또">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 카라멜마끼아또 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 253kcal | 당류: 60.6g | 카페인: 208mg</p>
+                                <p class="mb-0 small">진한 카라멜 소스와 부드러운 우유 거품이 어우러진 달콤한 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeMocha-com.jpg" class="list-item-img me-3" alt="카페모카">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 카페모카 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 321kcal | 당류: 28.2g | 카페인: 208mg</p>
+                                <p class="mb-0 small">진한 초콜릿의 풍미와 에스프레소가 어우러져 달콤쌉싸름하게 즐기는 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Coldbrew-com.jpg" class="list-item-img me-3" alt="콜드브루(에티오피아)">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 콜드브루(에티오피아) (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 17.74kcal | 당류: 0g | 카페인: 181.00mg</p>
+                                <p class="mb-0 small">차가운 물로 오랜 시간 추출하여 원두 본연의 향미와 깔끔한 맛을 살린 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ColdbrewLatte-com.jpg" class="list-item-img me-3" alt="콜드브루라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 콜드브루라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 122.74kcal | 당류: 7.50g | 카페인: 181.00mg</p>
+                                <p class="mb-0 small">깔끔한 콜드브루에 고소한 우유를 더해 더욱 부드럽게 즐기는 라떼.</p>
+                            </div>
+                        </div>
+
+                        <!-- 커피-메가 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">1,700원 /
+                                        2,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 12.2kcal | 당류: 0g | 카페인: 199.7mg</p>
+                                <p class="mb-0 small">(기본 2샷) 에스프레소에 물을 더한 스탠다드 커피</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="꿀아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 꿀아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">2,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 162.2kcal | 당류: 30.4g | 카페인: 198.6mg</p>
+                                <p class="mb-0 small">아메리카노에 달콤한 사양벌꿀이 소프트하게 어우러진 커피</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/megaricano.jpg" class="list-item-img me-3" alt="메가리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 메가리카노 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 16.7kcal | 당류: 0g | 카페인: 290.8mg</p>
+                                <p class="mb-0 small">아메리카노를 '960ml' 더 큼직하게 즐길 수 있는 대용량 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="바닐라아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 바닐라아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">2,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 121.9kcal | 당류: 6.9g | 카페인: 144.2mg</p>
+                                <p class="mb-0 small">아메리카노에 바닐라의 부드러운 향과 달콤함을 조화롭게 담아낸 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="헛개리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 헛개리카노 (HOT/ICE) <span class="badge bg-light text-dark border">2,400원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 34.7kcal | 당류: 0g | 카페인: 181.2mg</p>
+                                <p class="mb-0 small">국내산 헛개수와 아메리카노를 더해 고소한 맛이 조화로운 블렌딩 커피</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/megaricano.jpg" class="list-item-img me-3" alt="왕메가헛개리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕메가헛개리카노 (ONLY ICE) <span class="badge bg-light text-dark border">3,400원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 55.7kcal | 당류: 0g | 카페인: 234.6mg</p>
+                                <p class="mb-0 small">국내산 헛개수와 아메리카노를 블렌딩해 고소한 맛이 더욱 커진 왕메가사이즈 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mega-Americano.jpg" class="list-item-img me-3" alt="헤이즐넛아메리카노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 헤이즐넛아메리카노 (HOT/ICE) <span class="badge bg-light text-dark border">2,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 113.6kcal | 당류: 15.8g | 카페인: 196.7mg</p>
+                                <p class="mb-0 small">아메리카노에 헤이즐넛의 풍성한 향과 달콤함을 담아 향긋하고 부드럽게 즐기는 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Coldbrew.jpg" class="list-item-img me-3" alt="콜드브루오리지널">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 콜드브루오리지널 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 10.6kcal | 당류: 0g | 카페인: 217.0mg</p>
+                                <p class="mb-0 small">차가운 물에 장시간 우려내 깔끔한 목넘김을 느낄 수 있는 콜드브루.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ColdbrewLatte.jpg" class="list-item-img me-3" alt="콜드브루라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 콜드브루라떼 (HOT/ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 167.6kcal | 당류: 2.3g | 카페인: 131.7mg</p>
+                                <p class="mb-0 small">콜드브루에 고소한 우유를 섞어, 깔끔함과 부드러움을 잡은 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="바닐라라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 바닐라라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,400원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 239.2kcal | 당류: 23.7g | 카페인: 195.1mg</p>
+                                <p class="mb-0 small">바닐라의 짙은 향과 풍부한 폼 밀크의 조화가 인상적인 달콤한 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="라이트 바닐라 아몬드라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 라이트 바닐라 아몬드라떼 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 75.3kcal | 당류: 3.1g | 카페인: 206.2mg</p>
+                                <p class="mb-0 small">비건 음료 아몬드브리즈와 칼로리를 낮춘 라이트 바닐라 시럽이 만나 가볍지만 부드~러워진 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="카페라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 카페라떼 (HOT/ICE) <span class="badge bg-light text-dark border">2,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 145.1kcal | 당류: 9.2g | 카페인: 199.1mg</p>
+                                <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeLatte.jpg" class="list-item-img me-3" alt="왕메가카페라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕메가카페라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 269.4kcal | 당류: 28.4g | 카페인: 199.1mg</p>
+                                <p class="mb-0 small">진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 왕메가사이즈 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaffeMocha.jpg" class="list-item-img me-3" alt="카페모카">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 카페모카 (HOT/ICE) <span class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 294.4kcal | 당류: 33.9g | 카페인: 232.5mg</p>
+                                <p class="mb-0 small">초코를 만나 풍부해진 에스프레소와 고소한 우유, 부드러운 휘핑크림까지 더해 달콤하게 즐기는 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Cappuccino.jpg" class="list-item-img me-3" alt="카푸치노">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 카푸치노 (HOT/ICE) <span class="badge bg-light text-dark border">2,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 132.4kcal | 당류: 1.1g | 카페인: 192.3mg</p>
+                                <p class="mb-0 small">에스프레소 위에 올려진 우유 거품, 그리고 시나몬 파우더로 완성한 조화로운 맛의 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CaramelMacchiato.jpg" class="list-item-img me-3" alt="카라멜마끼아또">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 카라멜마끼아또 (HOT/ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 205.0kcal | 당류: 27.5g | 카페인: 200.0mg</p>
+                                <p class="mb-0 small">폼 밀크 속에 진한 에스프레소와 달콤한 카라멜을 가미해 부드럽게 즐기는 커피.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="연유라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 연유라떼 <span class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 351.5kcal | 당류: 31.9g | 카페인: 165.9mg</p>
+                                <p class="mb-0 small">향기로운 에스프레소 샷, 부드러운 우유, 달콤한 연유가 조화롭게 어우러진 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/VanillaLatte.jpg" class="list-item-img me-3" alt="헤이즐넛라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 헤이즐넛라떼 <span class="badge bg-light text-dark border">3,400원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 237.4kcal | 당류: 10.8g | 카페인: 216.9mg</p>
+                                <p class="mb-0 small">부드러운 카페라떼에 헤이즐넛의 풍부한 향과 달콤함을 담아 향긋하게 즐길 수 있는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CubeLatte.jpg" class="list-item-img me-3" alt="큐브라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 큐브라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,200원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 304.4kcal | 당류: 15.0g | 카페인: 313.4mg</p>
+                                <p class="mb-0 small">연유를 섞은 라떼에 에스프레소를 얼린 커피큐브를 올려, 녹을수록 더 진한 커피가 느껴지는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Choco-gelatoMatchaTeaLatte.jpg" class="list-item-img me-3" alt="초코젤라또 말차라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 초코젤라또 말차라떼 (HOT/ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 351.1kcal | 당류: 43.5g | 카페인: 243.5mg</p>
+                                <p class="mb-0 small">진하고 꾸덕한 초코 젤라또를 제주산 고품질 말차, 쌉싸름한 블렌딩 커피와 함께 즐기는 말차 에스프레소 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/MEGAMixCoffee.jpg" class="list-item-img me-3" alt="할메가커피">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 할메가커피 (ONLY ICE) <span class="badge bg-light text-dark border">2,100원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 281.9kcal | 당류: 30.3g | 카페인: 99.6mg</p>
+                                <p class="mb-0 small">달달한 믹스 커피 스타일로 만든 시원한 커피 음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BIGMEGAMixCoffee.jpg" class="list-item-img me-3" alt="왕할메가커피">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕할메가커피 (ONLY ICE) <span class="badge bg-light text-dark border">3,200원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 468.7kcal | 당류: 48.5g | 카페인: 196.4mg</p>
+                                <p class="mb-0 small">달달한 믹스 커피 스타일로 만든 메가사이즈 커피 음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/MEGAMGCMixCoffeeBlendwithGrainPowder.jpg" class="list-item-img me-3" alt="할메가미숫커피">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 할메가미숫커피 (ONLY ICE) <span class="badge bg-light text-dark border">2,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 413kcal | 당류: 45.4g | 카페인: 172.9mg</p>
+                                <p class="mb-0 small">곡물의 향이 고소한 미숫가루와 달달한 믹스커피의 황금비율 조합</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Espresso.jpg" class="list-item-img me-3" alt="에스프레소">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 에스프레소 (ONLY HOT) <span class="badge bg-light text-dark border">1,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 7.6kcal | 당류: 0.0g | 카페인: 104.8mg</p>
+                                <p class="mb-0 small">원두의 향미를 온전히 즐길 수 있는 에스프레소</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Espressodoppio.jpg" class="list-item-img me-3" alt="에스프레소 도피오">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 에스프레소 도피오 (ONLY HOT) <span class="badge bg-light text-dark border">2,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 15.2kcal | 당류: 0.0g | 카페인: 184.7mg</p>
+                                <p class="mb-0 small">더블샷으로 더욱 진하게 즐길 수 있는 에스프레소</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="list-smoothie">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <!--스무디&프라페 - 컴포즈 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/realChocolate-com.jpg" class="list-item-img me-3" alt="리얼초코자바칩프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 리얼초코자바칩프라페 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 575.4kcal | 당류: 55.6g | 카페인: 0mg</p>
+                                <p class="mb-0 small">진한 초콜릿과 바삭한 자바칩이 어우러져 달콤한 식감을 즐길 수 있는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/cookiechoco-com.jpg" class="list-item-img me-3" alt="쿠키초코프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키초코프라페 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 511.8kcal | 당류: 49.8g | 카페인: 0mg</p>
+                                <p class="mb-0 small">바삭한 쿠키와 달콤한 초콜릿이 만나 누구나 좋아하는 맛을 완성한 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/plainyogurt-com.jpg" class="list-item-img me-3" alt="플레인요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 플레인요거트스무디 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 445.83kcal | 당류: 81.5g | 카페인: 0mg</p>
+                                <p class="mb-0 small">요거트 특유의 새콤달콤한 맛을 시원하고 부드럽게 즐기는 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/blueberryyogurt-com.jpg" class="list-item-img me-3" alt="블루베리요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 블루베리요거트스무디 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 449.80kcal | 당류: 84.00g | 카페인: 0mg</p>
+                                <p class="mb-0 small">상큼한 블루베리와 부드러운 요거트가 조화롭게 어우러진 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/strawberryyogurt-com.jpg" class="list-item-img me-3" alt="딸기요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 딸기요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 437.3kcal | 당류: 82.1g | 카페인: 0mg</p>
+                                <p class="mb-0 small">달콤한 딸기 과육과 새콤한 요거트가 만나 입맛을 돋우는 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/mangoyogurt-com.jpg" class="list-item-img me-3" alt="망고요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 망고요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 455.9kcal | 당류: 82.89g | 카페인: 0mg</p>
+                                <p class="mb-0 small">열대과일 망고의 진한 달콤함을 요거트와 함께 즐기는 시원한 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/strawberrymochi-com.jpg" class="list-item-img me-3" alt="딸기 모찌 밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 딸기 모찌 밀크쉐이크 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">5,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 843kcal | 당류: 103.08g | 카페인: 0mg</p>
+                                <p class="mb-0 small">신선한 딸기 밀크쉐이크에 쫀득한 찹쌀떡(모찌)을 더해 식감까지 즐거운 스페셜 쉐이크.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/plainmilk-com.jpg" class="list-item-img me-3" alt="플레인 밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 플레인 밀크쉐이크 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,200원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 560.2kcal | 당류: 47.7g | 카페인: 0mg</p>
+                                <p class="mb-0 small">신선한 상하목장 우유의 진하고 고소한 풍미를 부드럽게 담아낸 오리지널 밀크쉐이크.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/candysoda-com.jpg" class="list-item-img me-3" alt="캔디소다 밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 캔디소다 밀크쉐이크 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,200원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 583.6kcal | 당류: 58.61g | 카페인: 0mg</p>
+                                <p class="mb-0 small">청량한 소다맛과 부드러운 우유가 만나 입안 가득 달콤하게 퍼지는 캔디바 맛 쉐이크.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/cookiemilk-com.jpg" class="list-item-img me-3" alt="쿠키 밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키 밀크쉐이크 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 671.6kcal | 당류: 62.3g | 카페인: 0mg</p>
+                                <p class="mb-0 small">바삭하고 달콤한 로투스 쿠키를 통째로 갈아 넣어 진한 고소함을 느낄 수 있는 쉐이크.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/coffeemilk-com.jpg" class="list-item-img me-3" alt="커피밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 커피밀크쉐이크 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 565kcal | 당류: 51.7g | 카페인: 156mg</p>
+                                <p class="mb-0 small">진한 에스프레소 2샷과 부드러운 밀크쉐이크가 어우러져 시원하게 즐기는 커피 쉐이크.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Injeolmimilk-com.jpg" class="list-item-img me-3" alt="팥절미 밀크쉐이크">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 팥절미 밀크쉐이크 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 704kcal | 당류: 78.5g | 카페인: 0mg</p>
+                                <p class="mb-0 small">고소한 인절미와 달콤한 통팥이 듬뿍 들어가 옛날 팥빙수 맛을 그대로 재현한 쉐이크.</p>
+                            </div>
+                        </div>
+
+                        <!-- 스무디/프라페-메가 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Nurung-JiCrispFrappe.jpg" class="list-item-img me-3" alt="누룽누룽 바삭 프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 누룽누룽 바삭 프라페 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 591.3kcal | 당류: 53.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">대왕님표 여주쌀로 만든 누룽지를 넣어 달달 꼬소~한 프라페</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/PeanutButterChocolateFrappe.jpg" class="list-item-img me-3" alt="피넛버터 초코 프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 피넛버터 초코 프라페 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,400원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 639.4kcal | 당류: 89.5g | 카페인: 31.3mg</p>
+                                <p class="mb-0 small">누가초코 프라페에 피넛버터를 더해 단맛과 풍미가 진하게 어우러진 프라페</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/PlainYogurtSmoothie.jpg" class="list-item-img me-3" alt="플레인요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 플레인요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 514.9kcal | 당류: 84.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">더 시원하게 요거트의 새콤달콤한 맛을 오롯이 만끽할 수 있는 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/StrawberryYogurtSmoothie.jpg" class="list-item-img me-3" alt="딸기요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 388.8kcal | 당류: 62.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">요거트의 상큼함과 딸기의 상큼함을 상냥하게 어우른 상큼 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/MangoYogurtSmoothie.jpg" class="list-item-img me-3" alt="망고요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 망고요거트스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 365.2kcal | 당류: 56.4g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">열대과일 망고의 진한 단 맛과 산뜻한 요거트의 하모니가 인상적인 스무디.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BlueberryYogurtSmoothie.jpg" class="list-item-img me-3" alt="블루베리요거트스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 블루베리요거트스무디 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 531.8kcal | 당류: 109.3g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">새콤달콤한 블루베리와 산뜻한 요거트가 만나 조화로운 스무디</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/TangerineJellySmoothie.jpg" class="list-item-img me-3" alt="귤 톡톡 젤리스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 귤 톡톡 젤리스무디 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,900원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 364.3kcal | 당류: 89.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">톡톡 터지는 상큼한 귤의 과육과 몽글한 젤리식감이 매력적인 스무디</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GoldMangoSmoothie.jpg" class="list-item-img me-3" alt="골드망고스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 골드망고스무디 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 209.5kcal | 당류: 38.4g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">황금빛 골드망고가 진하게 느껴지는 부드럽고 상큼 달콤한 스무디</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CoconutCoffeeSmoothie.jpg" class="list-item-img me-3" alt="코코넛 커피 스무디">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 코코넛 커피 스무디 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">4,800원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 746.5kcal | 당류: 61.4g | 카페인: 173.8mg</p>
+                                <p class="mb-0 small">바삭하고 고소한 코코넛 칩을 올리고 쌉싸름한 커피와 달콤한 코코넛이 조화로운 스무디</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/StrawberryCookieFrappe.jpg" class="list-item-img me-3" alt="딸기쿠키프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기쿠키프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 583.3kcal | 당류: 65.4g | 카페인: 2.6mg</p>
+                                <p class="mb-0 small">부드러운 바닐라와 달달한 딸기, 바삭한 오레오 쿠키가 달콤한 하모니를 선물하는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/RealChocolateFrappe.jpg" class="list-item-img me-3" alt="리얼초코프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 리얼초코프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 580.8kcal | 당류: 75.4g | 카페인: 32.1mg</p>
+                                <p class="mb-0 small">진한 초코소스와 부드러운 바닐라향의 만남으로 질리지 않는 달콤함을 완성한 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CookieFrappe.jpg" class="list-item-img me-3" alt="쿠키프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 쿠키프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 697.8kcal | 당류: 59.7g | 카페인: 6.8mg</p>
+                                <p class="mb-0 small">바삭하고 달콤한 오레오와 고소한 우유, 부드러운 바닐라향의 조화를 느낄 수 있는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GreenTeaFrappe.jpg" class="list-item-img me-3" alt="녹차프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 녹차프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 620.0kcal | 당류: 80.7g | 카페인: 198.8mg</p>
+                                <p class="mb-0 small">향긋한 녹차 위에 우유와 휘핑크림을 더해 더 부드럽게 즐길 수 있는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/MintFrappe.jpg" class="list-item-img me-3" alt="민트프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 민트프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 622.3kcal | 당류: 64.5g | 카페인: 5.6mg</p>
+                                <p class="mb-0 small">상쾌한 민트에 달콤하게 씹는 재미를 더한 초콜릿칩의 즐거운 하모니가 매력적인 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CoffeeFrappe.jpg" class="list-item-img me-3" alt="커피프라페">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 커피프라페 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 414.3kcal | 당류: 35.6g | 카페인: 162.6mg</p>
+                                <p class="mb-0 small">바삭한 쿠키와 부드러운 바닐라에 향긋한 에스프레소를 섞어 만든 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/PlainPongcrush.jpg" class="list-item-img me-3" alt="플레인퐁크러쉬">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 플레인퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 468.6kcal | 당류: 46.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">우유에 죠리퐁 씨리얼이 믹싱 된 얼음을 갈아 만든 시원한 프라페음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/StrawberryPongcrush.jpg" class="list-item-img me-3" alt="딸기퐁크러쉬">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 536.9kcal | 당류: 45.9g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">바삭하고 달달한 퐁에 딸기와 부드러운 우유, 얼음을 함께 블렌딩해 시원하게 즐기는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BananaPongcrush.jpg" class="list-item-img me-3" alt="바나나퐁크러쉬">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 바나나퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 593.8kcal | 당류: 64.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">바삭하고 달달한 퐁에 바나나와 우유, 얼음을 함께 블렌딩해 부드럽고 시원하게 즐기는 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ChocolateHoneyPongCrush.jpg" class="list-item-img me-3" alt="초코허니퐁크러쉬">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 초코허니퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 594.6kcal | 당류: 67.6g | 카페인: 10.0mg</p>
+                                <p class="mb-0 small">리얼 벌꿀이 들어가 더 달콤한 퍼프허니 시리얼과 초코가 함께 만드는 즐거운 맛의 프라페.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ChouxCreamHoneyPongCrush.jpg" class="list-item-img me-3" alt="슈크림허니퐁크러쉬">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 슈크림허니퐁크러쉬 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 568.1kcal | 당류: 49.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">부드러운 슈크림과 리얼 벌꿀이 들어간 퍼프허니 시리얼을 시원하게 즐기는 프라페.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="list-latte">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <!--논커피 라떼 - 컴포즈 -->
+
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/realchocolatte-com.jpg" class="list-item-img me-3" alt="생초콜릿라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 생초콜릿라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 518.7kcal | 당류: 37.2g | 카페인: 0mg</p>
+                                <p class="mb-0 small">벨기에산 생초콜릿이 듬뿍 올라가 진하고 꾸덕한 달콤함을 즐길 수 있는 프리미엄 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/strewberrychocolatte-com.jpg" class="list-item-img me-3" alt="딸기생초콜릿라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 딸기생초콜릿라떼 (ONLY ICE) <span class="badge bg-light text-dark border">4,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 598.3kcal | 당류: 57.9g | 카페인: 0mg</p>
+                                <p class="mb-0 small">상큼한 딸기 라떼 위에 꾸덕한 생초콜릿을 올려 달콤함과 상큼함을 동시에 즐기는 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/grainlatte-com.jpg" class="list-item-img me-3" alt="곡물라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 곡물라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 470.00kcal | 당류: 45.35g | 카페인: 0mg</p>
+                                <p class="mb-0 small">엄선된 곡물의 고소함이 우유와 만나 든든하고 담백하게 즐길 수 있는 곡물 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/sweetpotatolatte-com.jpg" class="list-item-img me-3" alt="고구마라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 고구마라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 363kcal | 당류: 37g | 카페인: 0mg</p>
+                                <p class="mb-0 small">달콤한 고구마의 풍미와 부드러운 우유가 어우러져 남녀노소 누구나 좋아하는 든든한 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/doublechocolatte-com.jpg" class="list-item-img me-3" alt="더블초코라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 더블초코라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 399.2kcal | 당류: 34.6g | 카페인: 0mg</p>
+                                <p class="mb-0 small">진한 초콜릿 소스와 우유가 어우러져 당 충전이 필요할 때 딱 좋은 깊은 맛의 초코 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/cookiechocolatte-com.jpg" class="list-item-img me-3" alt="쿠키초코라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[컴포즈커피] 쿠키초코라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 495kcal | 당류: 46.90g | 카페인: 0mg</p>
+                                <p class="mb-0 small">달콤한 초코 라떼에 바삭한 쿠키가 더해져 씹는 맛까지 즐거운 디저트 같은 라떼.</p>
+                            </div>
+                        </div>
+
+                        <!--논커피 라떼 - 메가 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/StrawberryLatte.jpg" class="list-item-img me-3" alt="딸기라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,700원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 366.4kcal | 당류: 47.3g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">산뜻하고 달콤한 딸기가 가득해 부드러운 우유와 어우러져 더욱 기분 좋게 즐기는 아이스 라떼</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/32ozMEGAChocolate.jpg" class="list-item-img me-3" alt="왕메가초코">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕메가초코 (ONLY ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 574.2kcal | 당류: 77.3g | 카페인: 35.6mg</p>
+                                <p class="mb-0 small">부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 왕 메가 사이즈 초코음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/SweetPotatoLatte.jpg" class="list-item-img me-3" alt="고구마라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 고구마라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 248.8kcal | 당류: 21.6g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">달콤하고 고소한 고구마와 부드러운 우유가 만나 누구나 즐기기 좋은 든든한 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GrainLatte.jpg" class="list-item-img me-3" alt="곡물라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 곡물라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 389.7kcal | 당류: 38.3g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">우유에 곡물을 더해 고소하고 든든하게 즐기는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ToffeenutLatte.jpg" class="list-item-img me-3" alt="토피넛라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 토피넛라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,800원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 364.5kcal | 당류: 22.5g | 카페인: 54.0mg</p>
+                                <p class="mb-0 small">은은하게 퍼지는 카라멜의 달달한 향기와 견과의 고소함을 한입에 즐길 수 있는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/OreoChocolateLatte.jpg" class="list-item-img me-3" alt="오레오초코라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 오레오초코라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 475.1kcal | 당류: 30.1g | 카페인: 11.1mg</p>
+                                <p class="mb-0 small">진한 초코와 리얼 오레오를 블렌딩해 씹는 맛을 더한 달콤한 아이스 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BrownSugarBubbleMilkteaLatte.jpg" class="list-item-img me-3" alt="흑당버블밀크티라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 흑당버블밀크티라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 330.2kcal | 당류: 24.4g | 카페인: 14.3mg</p>
+                                <p class="mb-0 small">얼그레이 홍차 밀크티에 진한 흑당과 흑당 버블의 달콤함을 채운 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BrownSugarLatte(NoPearls).jpg" class="list-item-img me-3" alt="흑당라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 흑당라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 322.0kcal | 당류: 33.6g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">진한 흑당과 부드러운 우유가 달콤하게 조화를 이루는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BrownSugarMilkteaLatte(Nopearls).jpg" class="list-item-img me-3" alt="흑당밀크티라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 흑당밀크티라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 300.5kcal | 당류: 22.6g | 카페인: 30.6mg</p>
+                                <p class="mb-0 small">얼그레이 홍차 밀크티 라떼에 진한 흑당의 달콤함을 채운 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BrownSugarBubbleLatte.jpg" class="list-item-img me-3" alt="흑당버블라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 흑당버블라떼 (ONLY ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 320.3kcal | 당류: 27.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">진한 흑당과 부드러운 우유가 달콤한 조화에 흑당 버블을 함께 즐기는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/IceChoco.jpg" class="list-item-img me-3" alt="핫/아이스초코">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 핫/아이스초코 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 369.2kcal | 당류: 33.5g | 카페인: 21.3mg</p>
+                                <p class="mb-0 small">부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 초콜릿 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GreenTeaLatte.jpg" class="list-item-img me-3" alt="녹차라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 녹차라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 288.5kcal | 당류: 21.2g | 카페인: 135.9mg</p>
+                                <p class="mb-0 small">향긋한 녹차에 우유를 더해 입 안에 부드러운 푸릇함을 선물하는 라떼.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/RoyalMilkTeaLatte.jpg" class="list-item-img me-3" alt="로얄밀크티라떼">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 로얄밀크티라떼 (HOT/ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 254.6kcal | 당류: 20.2g | 카페인: 118.1mg</p>
+                                <p class="mb-0 small">우유와 은은한 홍차가 어우러져 부드럽고 향긋한 한 모금을 완성한 라떼.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="list-tea">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <!-- 티&에이드-메가 -->
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BIGMEGAAppleCitronTea.jpg" class="list-item-img me-3" alt="왕메가사과유자">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕메가사과유자 (ONLY ICE) <span class="badge bg-light text-dark border">4,400원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 313.3kcal | 당류: 76.7g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">애플티의 향긋함과 유자청의 상큼달콤함을 느낄 수 있는 메가MGC커피만의 왕메가사이즈 과일티</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/(ICE)ZestyLycheeTea.jpg" class="list-item-img me-3" alt="상큼 리치티">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 상큼 리치티 (HOT/ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 260.1kcal | 당류: 61.9g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">리치, 라임, 망고스틴 베이스에 레드 커런트, 로즈마리를 더한 상큼한 과일티</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/32ozMEGAPeachIcedTea.jpg" class="list-item-img me-3" alt="왕메가아이스티">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 왕메가아이스티 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 474.8kcal | 당류: 96.6g | 카페인: 41.2mg</p>
+                                <p class="mb-0 small">깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 왕 메가 사이즈 아이스티</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ZEROSugarPeachIcedTea.jpg" class="list-item-img me-3" alt="제로 복숭아 아이스티">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 제로 복숭아 아이스티 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 26.1kcal | 당류: 0.7g | 카페인: 14.5mg</p>
+                                <p class="mb-0 small">깊게 우려진 홍차와 은은한 복숭아향의 아이스티를 제로슈가, 제로칼로리로 즐길 수 있는 음료</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GreenTea.jpg" class="list-item-img me-3" alt="녹차">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 녹차 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 1.0kcal | 당류: 0.0g | 카페인: 78.5mg</p>
+                                <p class="mb-0 small">고소한 감칠맛과 부드러운 목넘김으로 산뜻하게 마음을 위로하는 국내산 녹차.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ApplecitronTea.jpg" class="list-item-img me-3" alt="사과유자차">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 사과유자차 (HOT/ICE) <span class="badge bg-light text-dark border">3,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 242.2kcal | 당류: 37.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">애플티의 향긋함과 유자청의 상큼달콤함을 한컵에 담아낸 과일티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/EarlGrey.jpg" class="list-item-img me-3" alt="얼그레이">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 얼그레이 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 1.3kcal | 당류: 0.0g | 카페인: 87.2mg</p>
+                                <p class="mb-0 small">홍차 특유의 풍부한 플레이버를 만끽할 수 있는 허브티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Chamomile.jpg" class="list-item-img me-3" alt="캐모마일">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 캐모마일 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 1.3kcal | 당류: 0.0g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">마음을 진정 시켜주는 산뜻한 풀내음을 느낄 수 있는 허브티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/PeppermintTea.jpg" class="list-item-img me-3" alt="페퍼민트">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 페퍼민트 (HOT/ICE) <span class="badge bg-light text-dark border">2,500원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 2.5kcal | 당류: 0.0g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">멘톨향의 묵직한 청량감, 상쾌한 맛과 향이 인상적인 허브티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/PeachIcedTea.jpg" class="list-item-img me-3" alt="복숭아아이스티">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 복숭아아이스티 (ONLY ICE) <span class="badge bg-light text-dark border">3,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 297.1kcal | 당류: 62.6g | 카페인: 24.0mg</p>
+                                <p class="mb-0 small">깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 시원한 여름철 인기 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CitronTea.jpg" class="list-item-img me-3" alt="유자차">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 유자차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 303.1kcal | 당류: 59.4g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">비타민이 가득 든 상큼달콤한 유자를 듬뿍 넣어 향긋한 즐거움을 전하는 과일티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/LemonTea.jpg" class="list-item-img me-3" alt="레몬차">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 레몬차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 327.5kcal | 당류: 68.9g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">상큼한 레몬의 맛과 향을 오롯이 살린 비타민C 가득한 과일티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GrapefruitTea.jpg" class="list-item-img me-3" alt="자몽차">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 자몽차 (HOT/ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 297.6kcal | 당류: 58.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">달콤쌉싸름한 자몽의 조화로운 맛을 한 잔 가득 느낄 수 있는 과일티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/HoneyGrapefruitBlackTea.jpg" class="list-item-img me-3" alt="허니자몽블랙티">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 허니자몽블랙티 (HOT/ICE) <span class="badge bg-light text-dark border">3,700원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 265.8kcal | 당류: 42.7g | 카페인: 70.9mg</p>
+                                <p class="mb-0 small">달콤한 꿀청에 재운 자몽에 홍차의 부드러움을 어우른 상큼한 과일티.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CherryCola.jpg" class="list-item-img me-3" alt="체리콜라">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 체리콜라 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 323.6kcal | 당류: 55.6g | 카페인: 23.9mg</p>
+                                <p class="mb-0 small">체리의 새콤함과 청량감을 동시에 즐길 수 있는 환상적인 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/CherryColaZero.jpg" class="list-item-img me-3" alt="제로 체리콜라">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 제로 체리콜라 (ONLY ICE) <span class="badge bg-light text-dark border">3,300원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 7.9kcal | 당류: 0.2g | 카페인: 7.6mg</p>
+                                <p class="mb-0 small">체리의 새콤함과 콜라의 청량감을 동시에 즐길 수 있는 환상적인 제로 칼로리 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/ZEROSUGAREnergy-DrinkAde.jpg" class="list-item-img me-3" alt="제로 부스트 에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 제로 부스트 에이드 (ONLY ICE) <span
+                                        class="badge bg-light text-dark border">3,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 11.7kcal | 당류: 0.3g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">타우린 1,000mg이 들어가 활력이 충전되는 에너지드링크맛 제로 칼로리 에이드</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BlueberryPlumJuice.jpg" class="list-item-img me-3" alt="블루베리플럼주스">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 블루베리플럼주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 257.2kcal | 당류: 35.7g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">새콤달콤한 블루베리와 식이섬유가 풍부한 플럼, 프리바이오틱스를 더해 건강한 블렌딩 주스</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GoldKiwiJuice.jpg" class="list-item-img me-3" alt="골드키위주스">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 골드키위주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 202.8kcal | 당류: 43.1g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">상큼달콤한 프리미엄 골드키위에 밀크씨슬을 더해 일상의 활력을 선사하는 건강한 블렌딩 주스</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/StrawberryJuice.jpg" class="list-item-img me-3" alt="딸기주스">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span></h5>
+                                <p class="text-muted small mb-1">칼로리: 228.0kcal | 당류: 54.0g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">새콤달콤한 딸기주스에 피쉬 콜라겐을 더해 건강한 블렌딩 주스</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Strawberry-BananaJuice.jpg" class="list-item-img me-3" alt="딸기바나나주스">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 딸기바나나주스 (ONLY ICE) <span class="badge bg-light text-dark border">4,000원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 268.5kcal | 당류: 42.2g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">상큼한 딸기와 부드러운 바나나가 만나, 새콤달콤한 매력이 살아 있는 과일 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/LimeMojito.jpg" class="list-item-img me-3" alt="라임모히또">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 라임모히또 (ONLY ICE) <span class="badge bg-light text-dark border">3,800원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 290.5kcal | 당류: 70.4g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">상큼한 라임과 달콤한 향기의 애플민트가 어우러져 상쾌함을 한잔에 가득 채운 무알콜 모히또 음료.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/Lemonade.jpg" class="list-item-img me-3" alt="레몬에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 레몬에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 196.8kcal | 당류: 35.1g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">시트러스향 가득한 레몬의 상큼함과 톡쏘는 탄산의 상쾌함이 만난 청량 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/BlueLemonAde.jpg" class="list-item-img me-3" alt="블루레몬에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 블루레몬에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 225.0kcal | 당류: 36.5g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">레몬에이드의 상큼한 청량감에 블루큐라소의 진한 향미를 더한 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GrapefruitAde.jpg" class="list-item-img me-3" alt="자몽에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 자몽에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 203.8kcal | 당류: 40.7g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">자몽의 달콤쌉싸름한 맛과 탄산의 톡쏘는 목넘김이 어우러진 트로피컬 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/GreenGrapeAde.jpg" class="list-item-img me-3" alt="청포도에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 청포도에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,500원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 317.0kcal | 당류: 77.7g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">산뜻한 청포도와 상쾌한 탄산의 달달한 조화가 인상적인 에이드.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center border-bottom py-3">
+                            <img src="image/MEGAAde.jpg" class="list-item-img me-3" alt="메가에이드">
+                            <div class="flex-grow-1">
+                                <h5 class="fw-bold mb-1">[메가커피] 메가에이드 (ONLY ICE) <span class="badge bg-light text-dark border">3,900원</span>
+                                </h5>
+                                <p class="text-muted small mb-1">칼로리: 296.9kcal | 당류: 59.3g | 카페인: 0.0mg</p>
+                                <p class="mb-0 small">레몬, 라임, 자몽의 맛을 한데 어우른 시그니처 에이드.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-right">
+            <p class="small text-muted mb-1">본 사이트는 비상업적 사이트입니다.</p>
+            <p class="small text-muted mb-1">
+                모든 이미지는 스타벅스, 메가커피, 컴포즈커피 공식 사이트에서 사용하였으며,<br>
+                저작권은 각 브랜드에 있음을 알립니다.
+            </p>
+            <p class="small text-muted mt-3">Created by 서민서.</p>
+        </div>
+    </footer>
+    <a href="#" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4 z-3 shadow"
+        style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+        <i class="bi bi-arrow-up fw-bold fs-4"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

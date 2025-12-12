@@ -1,0 +1,100 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #ffffff;
+    padding-top: 70px;
+}
+
+/* 네비게이션 바 */
+.navbar-brand {
+    font-weight: 700;
+    color: #0d6efd !important;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 350px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flip-card-front {
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.flip-card-back {
+    background-color: #343a40;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+/* 스타벅스 */
+.starbucks {
+    background-color: #00704A;
+    color: white; 
+}
+
+/* 메가커피 */
+.mega {
+    background-color: #FFC107; 
+    color: #333333; 
+}
+
+/* 이디야 */
+.ediya {
+    background-color: #003087;
+    color: white;
+}
+
+/* 컴포즈커피 */
+.compose {
+    background-color: #FFD200; 
+    color: black; 
+}
+
+/* 목록형 */
+.list-item-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
